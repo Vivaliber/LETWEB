@@ -68,6 +68,10 @@ a {
   align-items: center;
 }
 
+.nav-list a.active {
+  border-color: rgb(62, 180, 183);
+}
+
 .drop {
   display: flex;
   justify-content: center;

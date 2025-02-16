@@ -33,10 +33,6 @@ a {
   color: rgb(62, 180, 183);
 }
 
-.active{
-  color: rgb(62, 180, 183);
-}
-
 .icon {
   display: flex;
   align-items: center;
@@ -72,6 +68,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-list a.active {
+  border-color: rgb(62, 180, 183)
 }
 
 .drop {
